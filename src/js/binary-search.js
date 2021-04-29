@@ -7,4 +7,13 @@ export default class Searches {
       }
     }
   }
+
+  binarySearch(listArray, item) {
+    let low = 0;
+    let high = listArray.length - 1;
+    while (low <= high) {
+      let mid = (low + high) / 2;
+      
+    }
+  }
 }
